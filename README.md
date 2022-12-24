@@ -15,3 +15,8 @@ CDNs help us to reduce the bandwidth demands on origin servers, reducing bandwid
 # What is crossorigin in script tag
 The purpose of crossorigin attribute is used to share the resources from one domain to another domain. Basically, it is used to handle the CORS request. It is used to handle the CORS(cross-origin resource sharing) request that checks whether it is safe to allow for sharing the resources from other domains. The resources may include Audio, Video, Images, Link or external script that specifies whether to support a cross-origin request or not.
 
+# What is diference between React and ReactDOM
+React library is responsible for creating views and ReactDOM library is responsible to actually render UI in the browser
+
+# What is difference between react.development.js and react.production.js files via CDN?
+react.development.js is in readable format code to easily readable for developers. while in react.production.js is in minified version and size of file is very less.
