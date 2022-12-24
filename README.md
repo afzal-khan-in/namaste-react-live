@@ -7,3 +7,4 @@ Library & Framework is like a creating a reusable functions written by someone t
 In Library, developer is the controller of the flow of applications. he decides when and where to call library. Whereas in Framework, framework is the charge of the flow. It has created the placeholder of you to plug your code and run the code as needed.
 For example, Library: You are responsiblee for building your home from ground to top and you have the control to design your own room, kitchen etc.
 Framework: You have a flat and everything is already created like room, kitchen etc and you just needs to live there.
+#What is CDN? Why do we use it?
