@@ -8,3 +8,5 @@ In Library, developer is the controller of the flow of applications. he decides 
 For example, Library: You are responsiblee for building your home from ground to top and you have the control to design your own room, kitchen etc.
 Framework: You have a flat and everything is already created like room, kitchen etc and you just needs to live there.
 #What is CDN? Why do we use it?
+A content delivery network (CDN) refers to a geographically distributed group of servers that work together to provide fast delivery of Internet content.
+CDNs help us to reduce the bandwidth demands on origin servers, reducing bandwidth and web hosting costs for website owners
