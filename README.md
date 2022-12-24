@@ -10,3 +10,6 @@ Framework: You have a flat and everything is already created like room, kitchen 
 #What is CDN? Why do we use it?
 A content delivery network (CDN) refers to a geographically distributed group of servers that work together to provide fast delivery of Internet content.
 CDNs help us to reduce the bandwidth demands on origin servers, reducing bandwidth and web hosting costs for website owners
+#What is crossorigin in script tag
+The purpose of crossorigin attribute is used to share the resources from one domain to another domain. Basically, it is used to handle the CORS request. It is used to handle the CORS(cross-origin resource sharing) request that checks whether it is safe to allow for sharing the resources from other domains. The resources may include Audio, Video, Images, Link or external script that specifies whether to support a cross-origin request or not.
+
