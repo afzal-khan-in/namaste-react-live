@@ -20,3 +20,10 @@ React library is responsible for creating views and ReactDOM library is responsi
 
 # What is difference between react.development.js and react.production.js files via CDN?
 react.development.js is in readable format code to easily readable for developers. while in react.production.js is in minified version and size of file is very less.
+
+# Difference between defer & async
+
+Both async and defer in Script tags are used to optimize the loading time of websites. Without these attributes, the browser pauses HTML parsing when it encounters the script tag and sends Network request for the script files. When the script files are received, it executes the script files and only then it would continue with HTML parsing.
+Async is suitable when the application requires scripts that need not be executed in a specific order(for example, some third party scripts). However, async does not guarantee the order in which script files are executed. If the application has many script files and one script file depends on the execution of the other scripts, then using async may result in errors.
+
+defer - When the Script has defer attribute, the browser sends the network request for the script files without pausing HTML parsing. Only arter the HTML is completely parsed, the browser executes the scripts. Unlike async, the browser can execute the scripts in which they are required by the app. Defer is suitable if the application has script files that needs to be executed in a specific order.
