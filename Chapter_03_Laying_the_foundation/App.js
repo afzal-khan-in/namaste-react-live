@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-
+import HeaderComponent1 from "./Header";
 const heading1 = (
   <h1 className="title" key="h1">
     Hello React World
@@ -36,6 +36,7 @@ const Title = () => {
 // );
 const HeaderComponent = () => (
   <div>
+    <HeaderComponent1 />
     <Container />
     <Title />
     <h1>Namaste React functional componenent</h1>
