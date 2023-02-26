@@ -17,14 +17,30 @@ const heading2 = (
 //   heading1,
 //   heading2,
 // ]);
-
-const container = (
-  <div className="container">
-    {heading1}
-    {heading2}
+const Container = () => {
+  return (
+    <div className="container">
+      {heading1}
+      {heading2}
+    </div>
+  );
+};
+const Title = () => {
+  return <h3>title</h3>;
+};
+// const container = (
+//   <div className="container">
+//     {heading1}
+//     {heading2}
+//   </div>
+// );
+const HeaderComponent = () => (
+  <div>
+    <Container />
+    <Title />
+    <h1>Namaste React functional componenent</h1>
   </div>
 );
-
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(container);
+root.render(<HeaderComponent />);
